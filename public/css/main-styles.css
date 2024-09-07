@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(202, 202, 202);
+}
+
+.user-input{
+    width: 70%;
+    height: 2.3rem;
+    font-size: 1.2rem;
+    margin:0.3rem;
+}
+
+.send-button{
+    border:none;
+    background-color: teal;
+    color:white;
+    width: 30%;
+    height: 2rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.send-button:hover{
+    background-color: white;
+    color: teal;
+    transition: 0.4s;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(17, 26, 0);
+}

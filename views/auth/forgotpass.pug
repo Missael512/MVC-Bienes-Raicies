@@ -1,0 +1,12 @@
+extends ../layout/index
+block contenido
+    div 
+        h1 Bienes Raices
+        h2=pagina
+        .form-contianer 
+            form 
+                div
+                    label(for="email") Email:
+                    input#email.user-input(placeholder="Ingrese su email" type="email" name="email")
+                
+                input(type="submit" value="Enviar instrucciones").send-button

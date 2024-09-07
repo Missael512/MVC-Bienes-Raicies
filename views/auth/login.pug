@@ -1,0 +1,18 @@
+extends ../layout/index
+block contenido
+    div 
+        h1 Bienes Raices
+        h2=pagina
+        .form-contianer 
+            form 
+                div
+                    label(for="email") Email:
+                    input#email.user-input(placeholder="Ingrese su email" type="email" name="email")
+                div
+                    label(for="password") Password:
+                    input#password.user-input(placeholder="Ingrese su password" type="password" name="password")
+                a(href="/usuarios/forgotpass") Olvide mi contraseña
+                br
+                a(href="/usuarios/registro") Crear cuenta
+                br
+                input(type="submit" value="Iniciar sesion").send-button
