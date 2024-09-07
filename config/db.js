@@ -1,6 +1,7 @@
 const Sequelize = require("sequelize");
+require('dotenv').config();
 
-const db = new Sequelize("bienes_node_mvc", "root", "", {
+const db = new Sequelize(process.env.BD_Name, "root", "", {
   host: "localhost",
   port: 3306,
   dialect: "mysql",
